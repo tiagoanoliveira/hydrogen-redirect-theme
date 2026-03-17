@@ -11,7 +11,7 @@
   "current": {
     "storefront_hostname": "nichecollective.pt",
     "custom_redirects": "",
-    "integrate_with_customer_accounts": false,
+    "integrate_with_customer_accounts": true,
     "content_for_index": []
   }
 }
