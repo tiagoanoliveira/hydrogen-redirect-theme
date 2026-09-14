@@ -15,7 +15,7 @@
     {% comment %}
       Should redirect if the template is defined (will be undefined for app proxies like /apps|a|community|tools/*)
     {% endcomment %}
-    {%- assign should_redirect = template != blank -%}
+    {%- assign should_redirect = template -%}
 
     {%- if settings.storefront_hostname != blank and should_redirect -%}
       <link rel="canonical" href="https://{{ settings.storefront_hostname }}{{ request.path }}">
@@ -163,3 +163,13 @@
     {{ content_for_layout }}
   </body>
 </html>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- assign should_redirect = template != blank -%}"
+  to: "{%- assign should_redirect = template -%}"
+  position: 578..619
+{% endcomment %}
