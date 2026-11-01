@@ -9,16 +9,9 @@
  */
 {
   "current": {
-    "storefront_hostname": "jeweliette-2944099948fc7e136854.o2.myshopify.dev",
+    "storefront_hostname": "jeweliette.tiagoanoliveira.pt",
     "custom_redirects": "",
     "integrate_with_customer_accounts": true,
-    "content_for_index": [],
-    "blocks": {
-      "14060646107696862457": {
-        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {}
-      }
-    }
+    "content_for_index": []
   }
 }
