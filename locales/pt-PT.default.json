@@ -7,4 +7,29 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{}
+{
+  "shopify": {
+    "checkout": {
+      "local_pickup": {
+        "stock_details": {
+          "in_stock": "Em stock"
+        }
+      },
+      "split_delivery": {
+        "delivery_updated_toast": {
+          "shipping_only": "A sua entrega foi atualizada. {{shipping}}",
+          "removal_only": "A sua entrega foi atualizada. {{removal}}",
+          "shipping_and_removal": "A sua entrega foi atualizada. {{shipping}} {{removal}}",
+          "shipping": {
+            "one": "{{count}} artigo foi transferido para envio.",
+            "other": "{{count}} itens foram transferidos para envio."
+          },
+          "removal": {
+            "one": "{{count}} item foi removido.",
+            "other": "{{count}} itens foram removidos."
+          }
+        }
+      }
+    }
+  }
+}
